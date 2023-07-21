@@ -20,6 +20,7 @@ public class Item {
 				dueDate);
 		return iteminfo;
 	}
+	
 	public String getAssetTag() {
 		return assetTag;
 	}
@@ -47,12 +48,13 @@ public class Item {
 	public String showAvailability(boolean isAvailable) {
 		String avail;
 
-		if (isAvailable == true) {
-			avail = "Yes";
-		} else {
-			avail = "No";
-		}
-		return avail;
-	}
+	    if (isAvailable == true) {
+	      avail = "Yes";
+	    } else {
+	      avail = "No";
+	    }
+	    return avail;
+	  }
 }
-//
+
+
